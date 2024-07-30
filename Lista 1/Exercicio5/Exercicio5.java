@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.lang.Math;
+import static java.lang.Math.pow;
 
 public class Exercicio5 {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class Exercicio5 {
             num2 = input.nextDouble();
         }
         
-        double resultado = Math.pow(num1, num2);
+        double resultado = pow(num1, num2);
         
         System.out.printf("Resultado: %.2f%n", resultado);
         
